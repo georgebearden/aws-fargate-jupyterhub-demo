@@ -1,6 +1,6 @@
-# aws-fargate-jupyterhub-demo
-Details the steps to deploy a docker container running JupyterHub to AWS ECS (Fargate). In this guide we are going to 
-1. Build the JupyterHub docker image on our local computer and run it to verifying it is working
+In this guide we are going to run a JupyterHub container on Amazon Elastic Container Service (Fargate) by following the steps below:
+
+1. Build a JupyterHub docker image on our local computer and run it to verifying it works
 2. Create an Amazon Elastic Container Registry (Amazon ECR) repository to hold the JupyterHub container
 3. Create an Amazon Elastic Container Service (Amazon ECS) Cluster to hold the running JupyterHub container
 4. Create a Task Definition to specify CPU/Memory/Port configuration for the JupyterHub container
